@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="poster">
+            <img height="600px" width="412px" src="https://marketplace.canva.com/EAE0X7zyR9s/1/0/1131w/canva-blue-white-fun-cheerleading-school-poster-lb7PukzwBOw.jpg" alt="">
+        </div>
+        <div class="sub-container-2">
+            <div class="discription">
+                <p>This is not a real online service! You know you need something like this is your life to help you relize your deepest dreams. Sign up now to get started.</p>
+                <h3>You know you want to.</h3>
+            </div>
+            <div class="form">
+                <form action="">
+                    <h3 class="form-heading">Let's do this!</h3>
+                    <div class="form-line-1">
+                        <div>
+                            <p for="first-name">FIRST NAME</p>
+                            <input id="first-name" type="text" pattern="[a-zA-Z]+" required>
+                            <p  id="p1"></p>
+                        </div>
+                        <div>
+                            <p for="last-name">LAST NAME</p>
+                            <input id="last-name" type="text" pattern="[a-zA-Z]+" required>
+                            <p  id="p2"></p>
+                        </div>
+                    </div>
+                    <div class="form-line-2">
+                        <div>
+                            <p for="email">EMAIL</p>
+                            <input id="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  required>
+                            <p id="p3"></p>
+                        </div>
+                        <div>
+                            <p for="last-name">PHONE NUMBER</p>
+                            <input id="phone" type="number" pattern=".{10}" required>
+                            <p  id="p4"></p>
+                        </div>
+                    </div>
+                    <div class="form-line-3">
+                        <div>
+                            <p for="password">PASSWORD</p>
+                            <input id="password" type="password" pattern=".{8,}" title="Eight or more characters" required>
+                            <p  id="p5"></p>
+                        </div>
+                        <div>
+                            <p for="Cpassword">CONFIRM PASSWORD</p>
+                            <input id="password" type="password" pattern=".{8,}" required>
+                            <p id="p6"></p>
+                        </div>
+                    </div>
+                    <button type="submit">Create Account</button>
+                    <p class="last-line">Already have an account?<span>Log in</span></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
